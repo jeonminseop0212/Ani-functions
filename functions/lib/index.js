@@ -4,6 +4,6 @@ const functions = require("firebase-functions");
 // Start writing Firebase Functions
 // https://firebase.google.com/docs/functions/typescript
 exports.helloWorld = functions.https.onRequest((request, response) => {
-    response.send("update");
+    response.send("is good?");
 });
 //# sourceMappingURL=index.js.map
